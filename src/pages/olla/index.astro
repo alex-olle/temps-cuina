@@ -1,0 +1,11 @@
+---
+import Table from "../../components/Table.astro";
+import MainLayout from "../../layouts/MainLayout.astro";
+import { POT_TIMES } from "../../data/pot_times";
+
+const title = "Temps en olla";
+---
+
+<MainLayout title={title}>
+  <Table type="pot" table={POT_TIMES} />
+</MainLayout>

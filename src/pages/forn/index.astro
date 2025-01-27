@@ -1,0 +1,12 @@
+---
+import Table from "../../components/Table.astro";
+import { OVEN_TIMES } from "../../data/oven_times";
+
+import MainLayout from "../../layouts/MainLayout.astro";
+
+const title = "Temps en forn";
+---
+
+<MainLayout title={title}>
+  <Table type="oven" table={OVEN_TIMES} />
+</MainLayout>

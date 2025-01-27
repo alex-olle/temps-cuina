@@ -1,0 +1,11 @@
+---
+import Table from "../../components/Table.astro";
+import { AIRFRYER_TIMES } from "../../data/airfryer_times";
+import MainLayout from "../../layouts/MainLayout.astro";
+
+const title = "Temps en airfryer";
+---
+
+<MainLayout title={title}>
+  <Table type="airfryer" table={AIRFRYER_TIMES} />
+</MainLayout>
