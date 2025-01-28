@@ -4,11 +4,10 @@ import { AIRFRYER_TIMES } from "../../data/airfryer_times";
 import MainLayout from "../../layouts/MainLayout.astro";
 
 const title = "Temps en airfryer";
-// TODO: Add a good description and image
-const description = "Temps en airfryer";
-const image = "";
+const description =
+  "A website that provides detailed information about airfryer cooking times and temperatures";
 ---
 
-<MainLayout title={title} description={description} image={image}>
+<MainLayout title={title} description={description}>
   <Table type="airfryer" table={AIRFRYER_TIMES} />
 </MainLayout>

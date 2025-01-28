@@ -4,11 +4,10 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import { POT_TIMES } from "../../data/pot_times";
 
 const title = "Temps en olla";
-// TODO: Add a good description and image
-const description = "Temps en olla";
-const image = "";
+const description =
+  "A website that provides detailed information about pot cooking times";
 ---
 
-<MainLayout title={title} description={description} image={image}>
+<MainLayout title={title} description={description}>
   <Table type="pot" table={POT_TIMES} />
 </MainLayout>
