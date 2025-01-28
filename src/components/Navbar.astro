@@ -4,16 +4,16 @@ import { LINKS } from "../consts";
 import Kitchen from "../icons/Kitchen.astro";
 ---
 
-<nav class="flex justify-between p-6 bg-red-400 w-full">
+<nav class="flex flex-col justify-start items-center sm:flex-row sm:justify-between p-6 bg-red-400 w-full">
   <a href="/">
-    <Kitchen class="text-white dark:text-slate-800 size-8" />
+    <Kitchen class="text-white dark:text-slate-800 size-8 mb-6 sm:mb-0" />
   </a>
-  <div class="flex justify-between">
+  <div class="flex justify-between w-full sm:w-auto">
     {
       LINKS.map((link) => (
         <a
           href={link.url}
-          class="flex items-center gap-x-2 mr-10 text-white dark:text-slate-800"
+          class="flex flex-col justify-around items-center sm:flex-row gap-x-2 sm:mr-10 text-white dark:text-slate-800" 
         >
           <link.icon class="size-8" />
           <p>{link.text}</p>

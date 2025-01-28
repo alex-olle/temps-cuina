@@ -11,7 +11,7 @@ const { table, type } = Astro.props;
 ---
 
 <section
-  class="border-[1px] border-red-400 rounded-b-xl rounded-t-2xl w-full max-w-2xl mt-12"
+  class="border-[1px] border-red-400 rounded-b-xl rounded-t-2xl w-11/12 sm:w-full max-w-2xl m-6 sm:mt-12"
 >
   <TableItem type={type} />
   {table.map((element) => <TableItem element={element} type={type} />)}

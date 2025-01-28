@@ -5,8 +5,11 @@ import { OVEN_TIMES } from "../../data/oven_times";
 import MainLayout from "../../layouts/MainLayout.astro";
 
 const title = "Temps en forn";
+// TODO: Add a good description and image
+const description = "Temps en forn";
+const image = "";
 ---
 
-<MainLayout title={title}>
+<MainLayout title={title} description={description} image={image}>
   <Table type="oven" table={OVEN_TIMES} />
 </MainLayout>

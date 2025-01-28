@@ -34,11 +34,11 @@ if (element) {
       : "text-white font-semibold bg-red-400 rounded-t-xl",
   ]}
 >
-  <div class="w-1/2 pl-3">{element ? element.name : "Ingredient"}</div>
-  <div class="w-1/4 text-end pr-3">
+  <div class="w-5/12 pl-3">{element ? element.name : "Ingredient"}</div>
+  <div class="w-3/12 text-end pr-3">
     {element ? `${element.time} min` : "Temps"}
   </div>
-  <div class="w-1/4 text-end pr-3">
+  <div class="w-4/12 text-end pr-3">
     {element ? lastColumnValue : lastColumnHeader}
   </div>
 </section>

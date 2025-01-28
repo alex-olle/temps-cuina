@@ -3,10 +3,15 @@ import { LINKS } from "../consts";
 import MainLayout from "../layouts/MainLayout.astro";
 
 const title = "Temps de cuina";
+// TODO: Add a good description and image
+const description = "Temps de cuina";
+const image = ""
 ---
 
-<MainLayout title={title}>
-  <section class="mt-10 sm:mt-20 w-full flex flex-col justify-start items-center sm:flex-row sm:justify-between sm:items-start px-6">
+<MainLayout title={title} description={description} image={image}>
+  <section
+    class="mt-10 sm:mt-20 w-full flex flex-col justify-start items-center sm:flex-row sm:justify-between sm:items-start px-6"
+  >
     {
       LINKS.map((link) => (
         <a
