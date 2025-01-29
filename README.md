@@ -96,7 +96,7 @@ Benefits:
 
 ## Roadmap
 
-- [] Add more times
+- [ ] Add more times
 
 See the [open issues](https://github.com/alex-olle/temps-cuina/issues) for a full list of proposed features (and known issues).
 
