@@ -17,5 +17,6 @@ export const POT_TIMES: IntensityElement[] = [
   { name: "Patata", time: 20, intensity: "Alta" },
   { name: "Pèsols", time: 15, intensity: "Alta" },
   { name: "Quinoa", time: 15, intensity: "Mitja" },
+  { name: "Romanesco", time: 15, intensity: "Alta" },
   { name: "Soja", time: 120, intensity: "Alta" },
 ];
