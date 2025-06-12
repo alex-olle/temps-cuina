@@ -2,6 +2,7 @@ import type { TemperatureElement } from "../types";
 
 export const AIRFRYER_TIMES: TemperatureElement[] = [
   { name: "Escalivada", time: 40, temperature: 200 },
+  { name: "Orada", time: 25, temperature: 170 },
   { name: "Ou dur", time: 15, temperature: 150 },
   { name: "Patata petita", time: 30, temperature: 200 },
   { name: "Patata mitjana", time: 40, temperature: 200 },
